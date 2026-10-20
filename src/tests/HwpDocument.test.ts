@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert/strict";
-import { HwpDocument } from "../hwp/HwpDocument.js";
+import { HwpDocument } from "../hwp/hwp-document.js";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { ORIGINAL_HWP_SIGNATURE } from "../constants/fileSignature.js";
